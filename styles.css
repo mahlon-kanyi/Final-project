@@ -215,6 +215,34 @@ img {
 
 
 /* Start Gallary */
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+img {
+  max-width: 300px;
+  width: 100%;
+}
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-grid img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
 /* End Gallary */
 
 
